@@ -1,5 +1,3 @@
-ChangeBGW();
-
 function ChangeBGB() {
     localStorage.setItem('theme','dark');
     document.getElementById('header-linebg').style.backgroundColor = '#222222';
