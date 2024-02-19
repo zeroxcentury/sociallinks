@@ -100,7 +100,7 @@ button {
 
 #mainbg {
     width: 100%;
-    height: 963px;
+    height: 800px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -151,4 +151,10 @@ h3 {
 
 #tg, #twitch, #youtube, #tiktok, #discord, #instagram {
     margin: 0px 15px 0px 0px;
+}
+#footer {
+    background-color: white;
+    width: auto;
+    height: 163px;
+    transition: 0.2s;
 }
