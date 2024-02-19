@@ -1,4 +1,4 @@
-localStorage.getItem('theme')==='white';
+ChangeBGW();
 
 function ChangeBGB() {
     localStorage.setItem('theme','dark');
