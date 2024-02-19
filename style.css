@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow: hidden;
 }
 
 .header-line {
@@ -100,7 +101,7 @@ button {
 
 #mainbg {
     width: 100%;
-    height: 800px;
+    height: 613px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -155,6 +156,6 @@ h3 {
 #footer {
     background-color: white;
     width: auto;
-    height: 163px;
+    height: 350px;
     transition: 0.2s;
 }
