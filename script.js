@@ -9,6 +9,7 @@ function ChangeBGB() {
     document.getElementById('theme').style.fill = 'white';
     document.getElementById('avatar').style.border = '2px solid white';
     document.getElementById('button-changebg-container').style.border = '2px solid white';
+    document.getElementById('button-changebg-container').style.backgroundColor = '#222222';
     document.getElementById('black').style.border = '2px solid white';
     document.getElementById('links-btns').style.border = '3px solid white';
     document.getElementById('twitch').style.fill = 'white';
@@ -25,6 +26,8 @@ function ChangeBGB() {
     document.getElementById('pds').style.color = 'white';
     document.getElementById('ptiktok').style.color = 'white';
     document.getElementById('body').style.backgroundColor = '#141414';
+    document.getElementById('button-changebg').style.backgroundColor = '#222222';
+    document.getElementById('button-changebg').style.border = '1px solid white';
 }
 function ChangeBGW() {
     localStorage.setItem('theme','white');
@@ -35,6 +38,7 @@ function ChangeBGW() {
     document.getElementById('theme').style.fill = 'black';
     document.getElementById('avatar').style.border = '2px solid black';
     document.getElementById('button-changebg-container').style.border = '2px solid black';
+    document.getElementById('button-changebg-container').style.backgroundColor = 'white';
     document.getElementById('black').style.border = '2px solid black';
     document.getElementById('links-btns').style.border = '3px solid black';
     document.getElementById('twitch').style.fill = 'black';
@@ -51,6 +55,8 @@ function ChangeBGW() {
     document.getElementById('pds').style.color = 'black';
     document.getElementById('ptiktok').style.color = 'black';
     document.getElementById('body').style.backgroundColor = 'white';
+    document.getElementById('button-changebg').style.backgroundColor = 'white';
+    document.getElementById('button-changebg').style.border = '1px solid black';
 }
 
 
