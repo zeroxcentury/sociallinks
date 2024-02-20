@@ -24,7 +24,6 @@ function ChangeBGB() {
     document.getElementById('pinst').style.color = 'white';
     document.getElementById('pds').style.color = 'white';
     document.getElementById('ptiktok').style.color = 'white';
-    document.getElementById('footer').style.backgroundColor = '#141414';
 }
 function ChangeBGW() {
     localStorage.setItem('theme','white');
@@ -50,7 +49,6 @@ function ChangeBGW() {
     document.getElementById('pinst').style.color = 'black';
     document.getElementById('pds').style.color = 'black';
     document.getElementById('ptiktok').style.color = 'black';
-    document.getElementById('footer').style.backgroundColor = 'white';
 }
 
 
