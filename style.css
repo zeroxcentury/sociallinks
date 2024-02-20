@@ -67,6 +67,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    visibility: hidden;
     opacity: 0;
     transition: 0.2s;
 }
@@ -78,6 +79,7 @@ button {
     border: 2px solid black;
     border-radius: 50%;
     cursor: pointer;
+    visibility: inherit;
     opacity: inherit;
 }
 #white {
@@ -88,6 +90,7 @@ button {
     border: 2px solid black;
     border-radius: 50%;
     cursor: pointer;
+    visibility: inherit;
     opacity: inherit;
 }
 
@@ -97,6 +100,7 @@ button {
 }
 .btnbg:focus ~ .button-changebg-container {
     opacity: 1;
+    visibility: visible;
     height: 30px;
 }
 
