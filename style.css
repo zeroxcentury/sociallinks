@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: white;
 }
 
 .header-line {
