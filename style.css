@@ -13,6 +13,7 @@ body {
     align-items: center;
     justify-content: space-between;
     transition: 0.2s;
+    z-index: 999999999;
 }
 
 .header-name {
@@ -112,6 +113,7 @@ button {
     justify-content: center;
     align-items: center;
     transition: 0.2s;
+    z-index: 1;
 }
 .main-container {
     display: flex;
@@ -119,12 +121,14 @@ button {
     align-items: center;
     width: auto;
     height: auto;
+    z-index: inherit;
 }
 
 h3 {
     font-family:"Google Sans",Helvetica,Arial,sans-serif;
     font-size: 24px;
     font-weight: 600;
+    z-index: inherit;
 }
 .links-btns{
     display: flex;
@@ -134,7 +138,7 @@ h3 {
     border-radius: 20px;
     height: 350px;
     width: 300px;
-    
+    z-index: inherit;
 }
 .links-btn {
     display: flex;
@@ -147,6 +151,7 @@ h3 {
     color: Black;
     margin: 10px 10px;
     transition: 0.2s;
+    z-index: inherit;
 }
 
 .links-btn:hover{
@@ -157,4 +162,5 @@ h3 {
 
 #tg, #twitch, #youtube, #tiktok, #discord, #instagram {
     margin: 0px 15px 0px 0px;
+    z-index: inherit;
 }
