@@ -8,7 +8,7 @@ function ChangeBGB() {
     document.getElementById('name').style.color = 'white';
     document.getElementById('theme').style.fill = 'white';
     document.getElementById('avatar').style.border = '2px solid white';
-    document.getElementById('button-changebg-container').style.border = '2px solid white';
+    document.getElementById('button-changebg-container').style.borderBottom = '2px solid white';
     document.getElementById('button-changebg-container').style.backgroundColor = '#222222';
     document.getElementById('black').style.border = '2px solid white';
     document.getElementById('links-btns').style.border = '3px solid white';
@@ -37,7 +37,7 @@ function ChangeBGW() {
     document.getElementById('name').style.color = 'black';
     document.getElementById('theme').style.fill = 'black';
     document.getElementById('avatar').style.border = '2px solid black';
-    document.getElementById('button-changebg-container').style.border = '2px solid black';
+    document.getElementById('button-changebg-container').style.borderBottom = '2px solid black';
     document.getElementById('button-changebg-container').style.backgroundColor = 'white';
     document.getElementById('black').style.border = '2px solid black';
     document.getElementById('links-btns').style.border = '3px solid black';
